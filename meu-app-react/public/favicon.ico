@@ -1,0 +1,3 @@
+Este arquivo é o ícone da aplicação que aparece na aba do navegador. Para o conteúdo do arquivo `favicon.ico`, você deve fornecer um arquivo de ícone apropriado. Como não posso gerar um arquivo binário, você deve criar ou obter um arquivo `favicon.ico` e colocá-lo na pasta `public` do seu projeto. 
+
+O arquivo `favicon.ico` deve ser deixado em branco, pois é um arquivo binário.
