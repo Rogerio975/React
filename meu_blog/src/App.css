@@ -2,11 +2,18 @@
   text-align: center;
   background-color: lightgray;
   color: white;
-  padding: 1px;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .SecondContainer {
+  background-color: darkgray;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.ThirdContainer {
   background-color: lightblue;
-  color: black;
-  padding: 1px;
+  padding: 20px;
+  margin-top: 20px;
 }
