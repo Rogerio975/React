@@ -1,0 +1,14 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgb(158, 156, 156);
+  border-radius: 10px;
+  border: 5px solid white; /* Adiciona a borda de 5px de cor branca */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(158, 156, 156);
+}
