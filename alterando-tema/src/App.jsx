@@ -25,7 +25,7 @@ function App() {
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={toggleTheme}>
-          Alternar para o tema {theme === 'light' ? 'escuro' : 'claro'}
+          Alternar para o tema {theme === 'light' ? 'escuro' : 'claro'}.
         </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
