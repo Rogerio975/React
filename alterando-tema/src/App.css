@@ -50,3 +50,20 @@ body.dark {
   background-color: #000000;
   color: #ffffff;
 }
+
+.theme-toggle-button {
+  color: #007bff; /* Cor do texto */
+  font-size: 18px; /* Tamanho do texto */
+  font-weight: bold; /* Negrito opcional */
+  background: none; /* Remove o fundo padrão */
+  border: 2px solid #007bff; /* Borda opcional */
+  padding: 10px 20px; /* Espaçamento interno */
+  border-radius: 5px; /* Bordas arredondadas */
+  cursor: pointer; /* Cursor de ponteiro */
+  transition: all 0.3s ease; /* Transição suave */
+}
+
+.theme-toggle-button:hover {
+  color: #ffffff; /* Cor do texto ao passar o mouse */
+  background-color: #007bff; /* Fundo ao passar o mouse */
+}

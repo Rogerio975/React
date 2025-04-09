@@ -24,7 +24,7 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <button onClick={toggleTheme}>
+        <button className="theme-toggle-button" onClick={toggleTheme}>
           Alternar para o tema {theme === 'light' ? 'escuro' : 'claro'}.
         </button>
         <p>
