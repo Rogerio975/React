@@ -22,7 +22,7 @@ function App() {
   };
 
   return (
-    <div style={{ maxWidth: 400, margin: "2rem auto", padding: "1rem", border: "1px solid #ccc", borderRadius: "8px" }}>
+    <div style={{ maxWidth: 400, margin: "2rem auto", padding: "1rem", border: "5px solid #ccc", borderRadius: "8px", backgroundColor: "#f9f9f9", boxShadow: "0 2px 4px rgba(0,0,0,0.1)", display: "flex", flexDirection: "column", gap: "1rem", marginLeft: "700px" }}>
       <h2>Formulário Controlado</h2>
       <form onSubmit={handleSubmit}>
         <div>
@@ -61,7 +61,7 @@ function App() {
             />
           </label>
         </div>
-        <button type="submit">Enviar</button>
+        <button type="submit" style={{background: "white", marginTop: "4px"}}>Enviar</button>
       </form>
     </div>
   );
