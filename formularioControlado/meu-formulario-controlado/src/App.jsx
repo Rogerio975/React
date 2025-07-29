@@ -22,7 +22,7 @@ function App() {
   };
 
   return (
-    <div style={{ maxWidth: 400, margin: "2rem auto" }}>
+    <div style={{ maxWidth: 400, margin: "2rem auto", padding: "1rem", border: "1px solid #ccc", borderRadius: "8px" }}>
       <h2>Formulário Controlado</h2>
       <form onSubmit={handleSubmit}>
         <div>
