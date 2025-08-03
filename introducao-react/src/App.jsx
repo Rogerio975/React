@@ -5,9 +5,7 @@ import Header from './Header';
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Header />
-      <Header />
+      <Header title="Header Param" />
       <img src={logo} className="App-logo" alt="logo" />
     </div>
   );
