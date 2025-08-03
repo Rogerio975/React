@@ -6,6 +6,8 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <Header />
+      <Header />
       <img src={logo} className="App-logo" alt="logo" />
     </div>
   );
