@@ -6,6 +6,11 @@ import Sobre from './pages/Sobre'
 function App() {
   return (
     <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/sobre" element={<Sobre />} />
+        <Route path="/contato" element={<Contato />} />
+      </Routes>
       <nav>
         <ul>
           <li><Link to="/">Home</Link></li>
@@ -13,11 +18,6 @@ function App() {
           <li><Link to="/contato">Contato</Link></li>
         </ul>
       </nav>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/sobre" element={<Sobre />} />
-        <Route path="/contato" element={<Contato />} />
-      </Routes>
     </Router>
   )
 }
