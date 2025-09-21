@@ -4,6 +4,7 @@
   padding: 2rem;
   text-align: center;
   background-color: rgb(230, 210, 164);
+  border: 2px solid black;
 }
 
 ul{
