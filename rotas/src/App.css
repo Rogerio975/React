@@ -14,3 +14,16 @@ ul{
   justify-content: center;
   padding: 1rem;
 }
+
+@media screen and (max-width: 600px) {
+  #root {
+    padding: 1rem;
+    border: 1px solid black;
+    margin: 0.5rem;
+  }
+
+  ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
