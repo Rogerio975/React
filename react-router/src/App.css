@@ -1,11 +1,11 @@
-/*.page-container {
+.page-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 15vh;
   text-align: center;
   flex-direction: column;
-}*/
+}
 
 h2 {
   font-size: 2.5rem;
