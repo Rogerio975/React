@@ -26,7 +26,12 @@ function App() {
 }
 
 function Home() {
-  return <h2>Bem-vindo à Home!</h2>;
+  return (
+    <div>
+      <h2>Bem-vindo à Home!</h2>
+      <p>Esta é a página principal do site.</p>
+    </div>
+  );
 }
 
 function Sobre() {
