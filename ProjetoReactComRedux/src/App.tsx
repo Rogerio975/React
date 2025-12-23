@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { decrementar, incrementar } from './features/contadorSlice';
 
 function App() {
-  const valor = useSelector((state) => state.contador.valor);
+  const valor = useSelector((state: { contador: { valor: number } }) => state.contador.valor);
   const dispatch = useDispatch();
 
   return (
