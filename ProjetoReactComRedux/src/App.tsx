@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div>
-      <h1>Contador: {valor}</h1>
+      <h1>Contador: {valor} vez(es).</h1>
       <button onClick={() => dispatch(incrementar())}>+</button>
       <button onClick={() => dispatch(decrementar())}>-</button>
     </div>
