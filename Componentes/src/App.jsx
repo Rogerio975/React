@@ -7,6 +7,7 @@ function App() {
       <Saudacao nome="Alice" />
       <Saudacao nome="Bruno" />
       <Saudacao nome="Júlia" />
+      <Saudacao nome="Nadjane" />
     </div>
   );
 }
