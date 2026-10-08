@@ -2,6 +2,7 @@ import { createBrowserRouter, Navigate } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Users from "./pages/Users";
+import UserCreate from "./pages/UserCreate";
 import UserDetail, { userLoader } from "./pages/UserDetail";
 import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
@@ -17,6 +18,7 @@ export const router = createBrowserRouter([
     children: [
       { index: true, element: <Home /> },
       { path: "usuarios", element: <Users /> },
+      { path: "usuarios/novo", element: <UserCreate /> },
       {
         path: "usuarios/:id",
         element: <UserDetail />,

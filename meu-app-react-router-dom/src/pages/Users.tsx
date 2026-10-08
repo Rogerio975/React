@@ -4,7 +4,12 @@ import { users } from "../data";
 export default function Users() {
   return (
     <section className="card">
-      <h1>Usuários</h1>
+      <div className="heading-row">
+        <h1>Usuários</h1>
+        <Link to="/usuarios/novo" className="btn">
+          Adicionar usuário
+        </Link>
+      </div>
       <ul className="list">
         {users.map((u) => (
           <li key={u.id}>

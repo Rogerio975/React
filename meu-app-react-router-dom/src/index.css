@@ -91,6 +91,17 @@ a:hover {
   font-size: 1.5rem;
 }
 
+.heading-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.heading-row h1 {
+  margin: 0;
+}
+
 .muted {
   color: var(--muted);
 }
