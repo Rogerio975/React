@@ -1,0 +1,163 @@
+:root {
+  --bg: #0b1220;
+  --surface: #121b2e;
+  --surface-2: #1a2540;
+  --border: #243252;
+  --text: #e6ebf5;
+  --muted: #8b98b5;
+  --accent: #3b82f6;
+  --accent-hover: #2563eb;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Segoe UI", system-ui, -apple-system, Roboto, sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 0 24px;
+  height: 56px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+
+.brand {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.nav {
+  display: flex;
+  gap: 4px;
+  flex: 1;
+}
+
+.nav a {
+  color: var(--muted);
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+.nav a:hover {
+  background: var(--surface-2);
+  text-decoration: none;
+}
+.nav a.active {
+  color: var(--text);
+  background: var(--surface-2);
+}
+
+.session {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.content {
+  max-width: 880px;
+  margin: 32px auto;
+  padding: 0 24px;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 24px;
+}
+.card.narrow {
+  max-width: 420px;
+}
+.card h1 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.list li {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border);
+}
+.list li:last-child {
+  border-bottom: none;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 8px 16px;
+}
+.details dt {
+  color: var(--muted);
+}
+.details dd {
+  margin: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input {
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 10px 12px;
+  font: inherit;
+}
+input:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: -1px;
+}
+
+.btn {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font: inherit;
+  cursor: pointer;
+}
+.btn:hover {
+  background: var(--accent-hover);
+  text-decoration: none;
+}
+.btn-ghost {
+  background: transparent;
+  color: var(--text);
+  border-color: var(--border);
+}
+.btn-ghost:hover {
+  background: var(--surface-2);
+}
