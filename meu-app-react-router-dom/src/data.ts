@@ -9,6 +9,7 @@ export const users: User[] = [
   { id: 1, name: "Ana Souza", role: "Analista de Sistemas", email: "ana.souza@exemplo.com" },
   { id: 2, name: "Carlos Lima", role: "Administrador de Redes", email: "carlos.lima@exemplo.com" },
   { id: 3, name: "Marina Alves", role: "Desenvolvedora", email: "marina.alves@exemplo.com" },
+  { id: 4, name: "Rafael Costa", role: "Gerente de Projetos", email: "rafael.costa@exemplo.com" },
 ];
 
 export function createUser(user: Omit<User, "id">): User {
